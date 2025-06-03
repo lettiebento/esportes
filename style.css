@@ -122,10 +122,11 @@ header {
 
 .imagem-destaque {
     width: 100%;
-    max-width: 800px;
-    border-radius: 15px;
-    margin: 20px auto;
+    max-height: 500px;
+    object-fit: cover;
     display: block;
+    border-radius: 0;
+    margin: 0 auto 30px;
 }
 
 .inspiracao h3 {
