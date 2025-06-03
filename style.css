@@ -188,6 +188,106 @@ header {
     color: #555;
 }
 
+/* Trabalhe Conosco */
+
+.trabalhe-banner img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 40px;
+}
+
+.trabalhe-conosco {
+    padding: 40px 10%;
+    background-color: #fff;
+    color: #333;
+}
+
+.trabalhe-conosco h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #002b5c;
+}
+
+.trabalhe-conosco p {
+    font-size: 16px;
+    margin-bottom: 25px;
+    line-height: 1.6;
+}
+
+/* Seção de valores */
+.valores-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 30px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.valor-card {
+    background-color: #f9f9f9;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    transition: box-shadow 0.3s ease;
+    border: 1px solid #ddd;
+}
+
+.valor-card:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.valor-card img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.valor-card h3 {
+    color: #004080;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.valor-card p {
+    font-size: 14px;
+    color: #555;
+}
+
+/* Seção de setores */
+.setores-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.setor-card {
+    text-align: center;
+    padding: 20px;
+    background-color: #eef3f7;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+}
+
+.setor-card:hover {
+    transform: translateY(-5px);
+}
+
+.setor-card img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 15px;
+}
+
+.setor-card h4 {
+    color: #002b5c;
+    font-size: 18px;
+}
+
+
 /* Rodapé */
 footer {
     background-color: #222;
