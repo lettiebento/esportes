@@ -107,6 +107,91 @@ header {
     color: #222;
 }
 
+/* Sobre a empresa */
+
+.quem-somos {
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.inspiracao {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.imagem-destaque {
+    width: 100%;
+    max-width: 800px;
+    border-radius: 15px;
+    margin: 20px auto;
+    display: block;
+}
+
+.inspiracao h3 {
+    margin-top: 20px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.inspiracao p {
+    margin: 10px 0;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.botao {
+    display: inline-block;
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    margin-top: 15px;
+    border-radius: 25px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.botao:hover {
+    background-color: #f0a500;
+}
+
+.historias h2 {
+    text-align: left;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.grid-historias {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background-color: #f9f9f9;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    text-align: center;
+    padding: 15px;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card h4 {
+    margin: 10px 0 5px;
+    font-size: 18px;
+    color: #222;
+}
+
+.card p {
+    font-size: 14px;
+    color: #555;
+}
+
 /* Rodapé */
 footer {
     background-color: #222;
