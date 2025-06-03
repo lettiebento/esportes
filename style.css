@@ -102,7 +102,7 @@ header {
 .esportes-grid a::after {
     content: attr(aria-label);
     display: block;
-    margin-top: 12px;
+    margin-top: 20px; /* aumentou o espaçamento */
     font-size: 20px;
     color: #222;
 }
