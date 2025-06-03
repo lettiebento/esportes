@@ -125,6 +125,8 @@ header {
     max-height: 400px;
     object-fit: cover;
     border-radius: 15px;
+    display: block;
+    margin: 0 auto 30px;
 }
 
 .inspiracao h3 {
