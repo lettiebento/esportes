@@ -47,7 +47,7 @@ header {
 }
 
 .banner-texto {
-    margin-top: 20px; /* Espaçamento entre a imagem e o texto */
+    margin-top: 20px;
 }
 
 .banner h2,
@@ -67,7 +67,7 @@ header {
 
 .esportes-grid {
     display: flex;
-    justify-content: space-between; /* Alinha as imagens nas laterais */
+    justify-content: space-between;
     flex-wrap: wrap;
     max-width: 100%;
     padding: 0 20px;
@@ -75,15 +75,18 @@ header {
 }
 
 .esportes-grid a {
-    flex: 1 1 22%; /* Ajuste de largura para 4 colunas */
+    flex: 1 1 22%;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
 }
 
 .esportes-grid img {
     width: 100%;
     max-width: 260px;
-    height: 260px;
+    height: 160px; /* Altura reduzida para formato horizontal */
     object-fit: cover;
     border-radius: 20px;
     transition: transform 0.3s;
@@ -92,6 +95,12 @@ header {
 
 .esportes-grid img:hover {
     transform: scale(1.05);
+}
+
+.esportes-grid span {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 footer {
