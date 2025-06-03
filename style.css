@@ -1,8 +1,35 @@
-/* Seção do banner */
+/* Estilização do menu */
+.menu ul {
+    list-style: none;
+    background-color: #333;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.menu ul li {
+    margin: 0;
+}
+
+.menu ul li a {
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu ul li a:hover {
+    background-color: #555;
+}
+
+/* Banner */
 .banner {
     text-align: center;
     background-color: #f4f4f4;
-    padding-bottom: 30px;
+    padding: 40px 20px 30px 20px;
 }
 
 .banner img {
@@ -12,32 +39,53 @@
     border-radius: 10px;
 }
 
-.banner h1, .banner p {
-    margin-top: 20px;
+.banner h1 {
+    margin-top: 30px;
+    font-size: 2rem;
 }
 
-/* Seção dos esportes */
+.banner p {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    color: #555;
+}
+
+/* Seção de esportes */
 .esportes {
-    max-width: 1200px;  /* MESMA LARGURA do banner */
-    margin: 40px auto;  /* Centraliza e adiciona espaço */
-    padding: 0 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px 60px 20px;
     text-align: center;
 }
 
 .esportes h2 {
     margin-bottom: 30px;
+    font-size: 1.8rem;
 }
 
+/* Grade de esportes */
 .esportes-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 30px;
-    justify-items: center;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.esportes-grid a {
+    flex: 1 1 calc(25% - 20px);
+    max-width: calc(25% - 20px);
 }
 
 .esportes-grid img {
     width: 100%;
-    max-width: 250px;
-    height: auto;
-    border-radius: 15px;
+    border-radius: 10px;
+}
+
+/* Rodapé */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9rem;
 }
