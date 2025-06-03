@@ -107,6 +107,42 @@ header {
     color: #222;
 }
 
+/*estilo para a página Quem Somos*/
+.quem-somos {
+    padding: 40px 20px;
+}
+
+.bloco-texto-imagem {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+}
+
+.bloco-texto-imagem.invertido {
+    flex-direction: row-reverse;
+}
+
+.bloco-texto-imagem img {
+    max-width: 400px;
+    border-radius: 15px;
+    flex: 1;
+}
+
+.bloco-texto-imagem .texto {
+    flex: 1;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.frase-final {
+    text-align: center;
+    margin-top: 60px;
+    font-size: 24px;
+    color: #222;
+}
+
 /* Rodapé */
 footer {
     background-color: #222;
