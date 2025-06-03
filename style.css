@@ -99,11 +99,11 @@ header {
     transform: scale(1.05);
 }
 
-.esportes-grid a::after {
-    content: attr(aria-label);
+.esportes-grid a span {
+    margin-top: 15px;
     display: block;
-    margin-top: 20px; /* aumentou o espaçamento */
-    font-size: 20px;
+    font-size: 18px;
+    font-weight: bold;
     color: #222;
 }
 
