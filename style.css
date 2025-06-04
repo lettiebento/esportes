@@ -193,6 +193,8 @@ header {
 .trabalhe-banner img {
     width: 90%;
     max-width: 1200px;
+    height: 250px; /* altura de banner */
+    object-fit: cover; /* recorta proporcionalmente */
     display: block;
     margin: 40px auto;
     border-radius: 20px;
