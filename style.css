@@ -191,10 +191,11 @@ header {
 /* Trabalhe Conosco */
 
 .trabalhe-banner img {
-    width: 100%;
-    height: auto;
+    width: 90%;
+    max-width: 1200px;
     display: block;
-    margin-bottom: 40px;
+    margin: 40px auto;
+    border-radius: 20px;
 }
 
 .trabalhe-conosco {
