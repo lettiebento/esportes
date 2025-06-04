@@ -188,59 +188,68 @@ header {
     color: #555;
 }
 
-/* Trabalhe Conosco */
-
+/* Banner Trabalhe Conosco */
 .trabalhe-banner img {
     width: 90%;
     max-width: 1200px;
-    height: 250px; /* altura de banner */
-    object-fit: cover; /* recorta proporcionalmente */
+    height: 250px;
+    object-fit: cover;
     display: block;
     margin: 40px auto;
     border-radius: 20px;
 }
 
-.trabalhe-conosco {
+/* Introdução com imagem e texto */
+.intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     padding: 40px 10%;
+    gap: 20px;
     background-color: #fff;
     color: #333;
 }
 
-.trabalhe-conosco h2 {
-    font-size: 28px;
-    margin-bottom: 20px;
-    color: #002b5c;
+.imagem-esporte {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 12px;
 }
 
-.trabalhe-conosco p {
+.texto-intro h3 {
+    font-size: 28px;
+    color: #002b5c;
+    margin-bottom: 15px;
+}
+
+.texto-intro p {
     font-size: 16px;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
     line-height: 1.6;
 }
 
 /* Seção de valores */
-.valores-grid {
+.valores .esportes-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
     gap: 30px;
-    margin-top: 30px;
-    margin-bottom: 50px;
+    padding: 40px 10%;
 }
 
-.valor-card {
+.valores .card {
     background-color: #f9f9f9;
     border-radius: 12px;
     padding: 20px;
     text-align: center;
-    transition: box-shadow 0.3s ease;
     border: 1px solid #ddd;
+    transition: box-shadow 0.3s ease;
 }
 
-.valor-card:hover {
+.valores .card:hover {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
-.valor-card img {
+.valores .card img {
     width: 100px;
     height: 100px;
     object-fit: cover;
@@ -248,48 +257,43 @@ header {
     margin-bottom: 15px;
 }
 
-.valor-card h3 {
+.valores .card h3 {
     color: #004080;
-    margin-bottom: 10px;
     font-size: 20px;
+    margin-bottom: 10px;
 }
 
-.valor-card p {
+.valores .card p {
     font-size: 14px;
     color: #555;
 }
 
+/* Texto final */
+.texto-final {
+    padding: 0 10% 40px;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+}
+
 /* Seção de setores */
-.setores-grid {
+.esportes-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
     gap: 30px;
-    margin-bottom: 40px;
+    padding: 0 10% 40px;
 }
 
-.setor-card {
-    text-align: center;
-    padding: 20px;
-    background-color: #eef3f7;
-    border-radius: 12px;
-    transition: transform 0.3s ease;
-}
-
-.setor-card:hover {
-    transform: translateY(-5px);
-}
-
-.setor-card img {
+.card img {
     width: 60px;
     height: 60px;
     margin-bottom: 15px;
 }
 
-.setor-card h4 {
-    color: #002b5c;
+.card h3 {
     font-size: 18px;
+    color: #002b5c;
 }
-
 
 /* Rodapé */
 footer {
